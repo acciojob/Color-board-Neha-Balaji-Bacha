@@ -6,7 +6,7 @@ for(let i=0;i<800;i++){
 	box.addEventListener("mouseover", () => {
 		box.style.backgroundcolor="red";
 		setTimeout(()=> {
-			box.style.backgroundcolor = "black";
+			box.style.backgroundcolor = "#000";
 		},1000);
 	});
 	container.appendChild(box);

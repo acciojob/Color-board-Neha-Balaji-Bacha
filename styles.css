@@ -6,6 +6,6 @@
 .square{
 	width: 20px;
 	height:20px;
-	background-color:black;
-	transition:1s;
+	background-color: #000;
+	transition: background-color 1s;
 }
