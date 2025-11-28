@@ -1,5 +1,5 @@
 //your JS code here. If required.
-const container = document.getElementById("boxConatiner");
+const container = document.getElementById("boxContainer");
 for(let i=0;i<800;i++){
 	const box = document.createElement("div");
 	box.className = "square";
