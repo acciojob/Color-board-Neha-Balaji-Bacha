@@ -1,17 +1,53 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+<meta charset="UTF-8">
+<title>Hover Squares</title>
 
+<style>
+  body {
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(10, 30px);
+    gap: 4px;
+  }
+
+  .square {
+    width: 30px;
+    height: 30px;
+    background-color: #222;
+    transition: background-color 1s ease; 
+  }
+
+  .square:hover {
+    background-color: #ff4d4d;
+    transition: background-color 0s; 
+  }
+</style>
+
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-	<div class="container" id="boxcontainer"></div>
-    <script type="text/javascript" src="./script.js">
-</script>
+
+<div class="container">
+  <!-- Generate many squares -->
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+  <div class="square"></div>
+</div>
 
 </body>
-
 </html>
